@@ -1,3 +1,49 @@
+# 2.2.0 / 2019-01-22
+
+* update to 0.8.7
+
+# 2.1.0 / 2018-09-15
+
+* update to 0.8.5
+
+# 2.0.0 / 2018-09-10
+
+* support setting nomad agent environment via node run_state (thanks @dbresson!)
+* drop upstart config creation
+
+# 1.2.0 / 2018-07-09
+
+* pretty print JSON config (thanks @scalp42!)
+* update test platforms
+
+# 1.1.0 / 2018-05-08
+
+* update to 0.8.3
+* fix systemd unit problem (thanks @potato20!)
+
+# 1.0.2 / 2018-04-17
+
+* add new options for 0.8
+* update to 0.8
+
+# 1.0.1 / 2018-02-28
+
+* update documentation
+* add cluster example suites in test-kitchen
+* remove name property for nomad_config
+
+# 1.0.0 / 2018-02-28
+
+* rework to use custom resources
+* add new resources
+* remove atlas resource
+* use latest nomad
+* change config root for clean cutover from old cookbook
+
+# 0.13.0 / 2017-08-14
+
+* support latest systemd cookbook
+
 # 0.12.1 / 2017-06-05
 
 * add no_host_uuid option (thanks @potato20!)

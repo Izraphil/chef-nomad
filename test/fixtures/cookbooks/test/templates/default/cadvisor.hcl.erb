@@ -1,11 +1,11 @@
-job "cadvisor" {
+job "monitoring" {
   region = "global"
 
-  datacenters = ["dc1"]
+  datacenters = ["vagrant"]
 
   type = "system"
 
-  group "monitoring" {
+  group "agents" {
     task "cadvisor" {
       driver = "docker"
 
@@ -13,6 +13,9 @@ job "cadvisor" {
         image = "google/cadvisor"
         port_map {
           cadvisor = 8080
+        }
+        labels {
+          Service = "cadvisor"
         }
       }
 

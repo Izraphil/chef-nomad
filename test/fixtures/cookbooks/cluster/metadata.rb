@@ -1,4 +1,4 @@
-name 'test'
+name 'cluster'
 version '0.0.0'
 
 depends 'docker'
